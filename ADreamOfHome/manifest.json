@@ -5,6 +5,6 @@
   "name": "A Dream Of Home",
   "uniqueName": "Bluestand.ADOH",
   "version": "0.1.0",
-  "owmlVersion": "2.9.0",
+  "owmlVersion": "2.9.8",
   "dependencies": [ "xen.NewHorizons" ]
 }

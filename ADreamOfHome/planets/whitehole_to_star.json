@@ -1,0 +1,74 @@
+{
+        "name" : "Welcome Home",
+	"Base" : 
+	{
+		"surfaceGravity" : -100,
+		"surfaceSize" : 24,
+		"hasMapMarker" : true,
+                "hasReferenceFrame" : true,
+	        "hasAmbientLight" : false
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 30000,
+		"primaryBody" : "Accommodation Beam",
+		"isStatic" : true,
+		"argumentOfPeriapsis" : 90,
+		"showOrbitLine" : false
+	},
+        "Singularity" :
+        {
+                "Size" : 20,
+                "Type" : "WhiteHole",
+                "PairedSingularity" : " "
+        },
+	"Atmosphere" :
+	{
+		"size" : 100,
+		"fogTint":
+		{
+			"r" : 0,
+			"g" : 5,
+			"b" : 80,
+			"a" : 255
+		},
+		"fogSize": 70,
+		"fogDensity":0.3
+	},
+        "Props" :
+        {
+                "details" : 
+                [
+                        {"path" : "WhiteholeStationSuperstructure_Body/Geometry_WhiteholeStationSuperstructure/ControlledByProxy_Superstructure", "position" : {"x": 0,"y": 0,"z": 0}, "scale":2.0},
+                        {"path" : "WhiteholeStationSuperstructure_Body/Proxy_WhiteholeStationSuperstructure", "position" : {"x": 0,"y": 0,"z": 0}, "scale":2.0},
+                        {"path" : "DB_VesselDimension_Body/Sector_VesselDimension/Volumes_VesselDimension/VesselDiscoveryMusicTrigger", "position" : {"x": 0,"y": 0,"z": 0}, "scale":1.0},
+                        {"path" : "TimberHearth_Body/Sector_TH/Volumes_TH/RulesetVolumes_TH", "position" : {"x": 0,"y": 0,"z": 0}, "scale":2.0}
+                ]
+	},
+        "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "A Dream of Home", 
+                          "Name" : "W e l c o m e   H o m e", 
+                          "audioFilePath" : "planets/Assets/HomeAgain.wav", 
+                          "SourceRadius" : 60, 
+                          "identificationRadius" : 80}
+		]
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/ShipLogs/sprites/W-hole_map.png",
+			"scale": 1,
+			"manualPosition": {
+				"x": 2000,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x": 9,
+				"y": 1
+			}
+		}
+    }
+}

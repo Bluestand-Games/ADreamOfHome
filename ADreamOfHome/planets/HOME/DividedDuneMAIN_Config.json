@@ -1,0 +1,49 @@
+{
+    "name" : "Divided Dune",
+    "Base" : 
+    {
+        "surfaceSize" : 230,
+        "surfaceGravity" : 0.000000000000000000000000000000000000001,
+        "hasMapMarker" : true,
+	"hasReferenceFrame" : true,
+	"hasAmbientLight" : true
+  },
+    "Water" :
+    {
+        "size" : 227
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 4000,
+        "siderealPeriod" : 3,
+        "inclination" : 0,
+        "primaryBody" : "Accommodation Beam",
+        "isMoon" : false,
+        "isTidallyLocked" : false,
+        "longitudeOfAscendingNode" : 0,
+        "eccentricity" : 0,
+        "argumentOfPeriapsis": 80,
+        "showOrbitLine" : true
+   },
+	"Atmosphere" :
+	{
+		"size" : 320,
+                "fogTint" : 
+		{
+			"r" : 16,
+			"g" : 20,
+			"b" : 100,
+			"a" : 255
+		},
+		"fogDensity": 0.4,
+		"fogSize": 230,
+		"hasAtmosphere" : true,
+		"atmosphereTint" : 
+		{
+			"r" : 14,
+			"g" : 20,
+			"b" : 100,
+			"a" : 255
+	       }
+          }
+}

@@ -1,0 +1,122 @@
+{
+	"name" : "Accommodation Beam",
+	"Base" :
+	{
+		"surfaceGravity" : 60,
+		"surfaceSize" : 2000,
+		"hasMapMarker" : true,
+	        "hasReferenceFrame" : true,
+		"gravityFallOff" : "inverseSquared"
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1000000,
+		"trueAnomaly" : -90,
+                "eccentricity" : 0,
+                "inclination" : 0,
+		"primaryBody" : "SUN",
+		"isStatic" : true,
+                "showOrbitLine" : true,
+		"isMoon" : false,
+                "tint":
+              	{
+			"r" : 280,
+			"g" : 100,
+			"b" : 25,
+			"a" : 127
+		}
+        },
+	"Star" :
+	{
+		"size" : 2000,
+		"tint" : 
+		{
+			"r" : 280,
+			"g" : 100,
+			"b" : 45,
+			"a" : 255
+		},
+                "hasAtmosphere" : true,
+		"solarFlareTint" : 
+		{
+			"r" : 280,
+			"g" : 100,
+			"b" : 45,
+			"a" : 255
+                },
+		"solarLuminosity" : 1.5
+        },
+        "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Traveler", 
+                          "Name" : "A DREAM OF HOME", 
+                          "audioFilePath" : "planets/Assets/OwlHome.wav", 
+                          "SourceRadius" : 1000, 
+                          "identificationRadius" : 9000,
+                          "Reveals" : "NewStar"}
+		]
+	},
+        "Props" :
+        {
+                "details" : 
+                [
+                        {"path" : "Sun_Body/Sector_SUN/Audio_SUN/SurfaceAudio_Sun", "position" : {"x": 0,"y": 0,"z": 0}, "scale":1.0},
+                        {"path" : "TimberHearth_Body/Sector_TH/Volumes_TH/RulesetVolumes_TH",
+                        "position" : {"x": 0,"y": 0,"z": 0},
+ 	                "rotation" : {"x":0, "y":0, "z":0},
+	                "scale":9.0
+                        },
+                ],
+                "reveal" : 
+                [
+                        {"radius":9000,"reveals":["NewStar"],"revealOn":"enter"}
+                ]
+     	},
+        "ShipLog" : {
+        "xmlFile": "planets/ShipLogs/Accommodation_Beam.xml",
+	"spriteFolder": "planets/ShipLogs/sprites",
+	"mapMode" : {
+	"revealedSprite": "planets/ShipLogs/sprites/NewSun_map.png",
+	"scale": 7,
+	"manualPosition": {
+	"x": 14000,
+	"y": 0
+	},
+	"manualNavigationPosition": {
+	"x": 14,
+	"y": 1
+	}
+        },
+	"curiosities":
+        [
+	{
+	"id": "Star",
+	"color": {
+	"r": 255,
+	"g": 255,
+	"b": 0,
+	"a": 255
+	},
+	"highlightColor":
+        {
+	"r": 255,
+	"g": 255,
+	"b": 225,
+	"a": 255
+	}
+	}
+	],
+	"entryPositions": 
+        [
+	{
+	"id": "Star",
+	"position": {
+	"x": 0,
+	"y": 200
+	}
+       }
+     ]
+    }
+}

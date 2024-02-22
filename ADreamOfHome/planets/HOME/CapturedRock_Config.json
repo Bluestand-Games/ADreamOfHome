@@ -1,0 +1,69 @@
+{
+    "name" : "Captured Rock",
+    "Base" : 
+    {
+        "surfaceSize" : 210,
+        "surfaceGravity" : 8,
+        "hasMapMarker" : true,
+	"hasReferenceFrame" : true,
+	"hasAmbientLight" : true
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 21000,
+        "siderealPeriod" : 2,
+        "inclination" : 0,
+        "primaryBody" : "Accommodation Beam",
+        "isMoon" : false,
+        "isTidallyLocked" : false,
+        "longitudeOfAscendingNode" : 0,
+        "eccentricity" : 0.05,
+        "argumentOfPeriapsis": 120,
+        "showOrbitLine" : true
+   },
+	"Atmosphere" :
+	{
+		"size" : 200,
+                "fogTint" : 
+		{
+			"r" : 106,
+			"g" : 60,
+			"b" : 30,
+			"a" : 255
+		},
+		"fogDensity": 0.8,
+		"fogSize": 250
+    },
+    "HeightMap" :
+    {
+	    "heightMap" : "planets/Assets/CapturedRock-height.png",
+	    "textureMap" : "planets/Assets/CapturedRock-color.png",
+        "minHeight" : 200,
+        "maxHeight" : 340
+    },
+    "Props" : 
+    {
+		"slideShows" :
+		[
+			{
+				"position": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 0, "y": 0, "z": 0},
+				"type": "slideReel",
+				"slides": [
+					{"imagePath": "planets/assets/sr/1a.png"},
+					{"imagePath": "planets/assets/sr/2a.png"},
+					{"imagePath": "planets/assets/sr/3a.png"},
+					{"imagePath": "planets/assets/sr/4a.png"},
+					{"imagePath": "planets/assets/sr/5a.png"},
+					{"imagePath": "planets/assets/sr/6a.png"},
+					{"imagePath": "planets/assets/sr/7a.png"},
+					{"imagePath": "planets/assets/sr/8a.png"},
+                                        {"imagePath": "planets/assets/SR/9a.png"},
+                                        {"imagePath": "planets/assets/SR/10a.png"},
+                                        {"imagePath": "planets/assets/SR/11a.png"},
+                                        {"imagePath": "planets/assets/SR/12a.png"}
+				]
+			}
+                ]
+    }
+}

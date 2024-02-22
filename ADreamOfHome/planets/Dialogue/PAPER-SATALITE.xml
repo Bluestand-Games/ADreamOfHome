@@ -1,0 +1,15 @@
+<DialogueTree>
+	<NameField> </NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>If someone, uh, reads this, Hello! If you are looking after me, go to the Moon thats orbiting the Ringed Planet</Page>
+			<Page>wait, that's stupid, This is GOING to orbit the damn thing!</Page>
+			<Page>well, i don't have an Eraser, so now it's going to stay there, great...</Page>
+			<Page>(Also, i made this. it's a home made satalite, judge me all you want! i don't care!)</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

@@ -1,0 +1,145 @@
+{
+    "name" : "Calmed Cyan",
+    "Base" : 
+    {
+        "surfaceSize" : 800,
+        "surfaceGravity" : 30,
+        "hasMapMarker" : true,
+        "hasReferenceFrame" : true,
+	    "hasAmbientLight" : true
+  },
+    "Water" :
+    {
+        "size" : 335
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 16000,
+        "inclination" : 0,
+        "primaryBody" : "Accommodation Beam",
+        "isMoon" : false,
+	"alignmentAxis" : {"x": 0, "y": -0.2, "z": 1},
+        "isTidallyLocked" : true,
+        "longitudeOfAscendingNode" : 0,
+        "eccentricity" : 0,
+        "argumentOfPeriapsis": 100,
+        "showOrbitLine" : true
+   },
+	"Atmosphere" :
+	{
+                "hasOxygen" : false,
+		"size" : 500,
+                "cloudTint" : 
+		{
+			"r" : 151,
+			"g" : 151,
+			"b" : 151,
+			"a" : 255
+		},
+		"cloud" : "planets/assets/residence.png",
+		"cloudCap" : "planets/assets/residence_cap.png",
+		"cloudRamp" : "planets/assets/residence_ramp.png",
+                "fogTint" : 
+		{
+			"r" : 10,
+			"g" : 151,
+			"b" : 201,
+			"a" : 255
+		},
+		"fogDensity": 0.4,
+		"fogSize": 250,
+                "hasRain" : false,
+		"hasAtmosphere" : true,
+		"atmosphereTint" : 
+		{
+			"r" : 10,
+			"g" : 151,
+			"b" : 200,
+			"a" : 255
+		}
+    },
+    "HeightMap" :
+    {
+	    "heightMap" : "planets/Assets/sand-height.png",
+	    "textureMap" : "planets/Assets/sand-color.png",
+        "minHeight" : 90,
+        "maxHeight" : 330
+    },
+    "Ring" : {
+        "innerRadius" : 0,
+        "outerRadius" : 1400,
+        "inclination" : 0,
+        "texture" : "planets/Assets/rings-home.png"
+
+    },
+        "Props" :
+        {
+                "reveal" : 
+                [
+                     {"radius":30000,"reveals":["c-far"],"revealOn":"enter"},
+                     {"radius":500,"reveals":["c-found"],"revealOn":"enter"},
+                     {"radius":8000,"reveals":["c-near"],"revealOn":"enter"}
+                ],
+                "details" :
+		[
+			{ 
+				"path" : "GiantsDeep_Body/Sector_GD/Volumes_GD/Ocean_Fluid_Audio_Rain", 
+				"position" : {"x": 0, "y": 0,"z": 0},  
+				"rotation" : {"x": 90, "y": 0,"z": 0},
+	                        "scale":0.6
+			},
+			{ 
+				"path" : "GiantsDeep_Body/Sector_GD/Clouds_GD/LightningGenerator_GD", 
+				"position" : {"x": 0, "y": 0,"z": 0},  
+				"rotation" : {"x": 90, "y": 0,"z": 0},
+	                        "scale":0.5
+			},
+                        {"path" : "TimberHearth_Body/Sector_TH/Volumes_TH/RulesetVolumes_TH",
+                                "position" : {"x": 0,"y": 0,"z": 0},
+ 	                        "rotation" : {"x":0, "y":0, "z":0},
+	                        "scale":2.0
+                        },
+			{ 
+				"path" : "GiantsDeep_Body/Sector_GD/Clouds_GD/LightningGenerator_GD", 
+				"position" : {"x": 0, "y": 0,"z": 0},  
+				"rotation" : {"x": 90, "y": 0,"z": 0},
+	                        "scale":0.5
+			},			{ 
+				"path" : "GiantsDeep_Body/Sector_GD/Clouds_GD/LightningGenerator_GD", 
+				"position" : {"x": 0, "y": 0,"z": 0},  
+				"rotation" : {"x": 90, "y": 0,"z": 0},
+	                        "scale":0.5
+			},			{ 
+				"path" : "GiantsDeep_Body/Sector_GD/Clouds_GD/LightningGenerator_GD", 
+				"position" : {"x": 0, "y": 0,"z": 0},  
+				"rotation" : {"x": 90, "y": 0,"z": 0},
+	                        "scale":0.5
+                        }
+                ]
+     	},
+        "ShipLog" : {
+         "xmlFile": "planets/ShipLogs/Residence.xml",
+	 "spriteFolder": "planets/ShipLogs/sprites",
+         "mapMode" : {
+		"revealedSprite": "planets/ShipLogs/sprites/cyan-map.png",
+		"scale": 2,
+		"manualPosition": {
+			"x": 5000,
+			"y": 0
+		},
+		"manualNavigationPosition": {
+			"x": 11,
+			"y": 1
+		}
+              },
+	        "entryPositions": [
+		{
+			"id": "Cyan",
+			"position": {
+				"x": 20,
+				"y": 200
+				}
+			}
+		]
+    }
+}

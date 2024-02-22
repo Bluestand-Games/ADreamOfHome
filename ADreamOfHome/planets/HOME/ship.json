@@ -1,0 +1,59 @@
+{
+    "name" : "▉",
+    "Base" : 
+    {
+        "surfaceSize" : 15,
+        "hasMapMarker" : false,
+	"hasReferenceFrame" : true,
+        "IsSatellite" : true,
+	"hasAmbientLight" : false
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 300,
+        "inclination" : 30,
+        "primaryBody" : "Kaepora's Desire",
+        "isTidallyLocked" : false,
+        "trackingOrbitLine" : true,
+        "siderealPeriod" : 0.2,
+        "eccentricity" : 0,
+        "trueAnomaly" : 10,
+        "showOrbitLine" : true
+    },
+    "Signal" : 
+    {
+	"Signals" : 
+	[
+		{ "Frequency" : "Traveler", 
+                         "Name" : "Leith's Ship", 
+                         "audioFilePath" : "planets/Assets/Wind.wav", 
+                         "SourceRadius" : 1, 
+                         "identificationRadius" : 20
+	        }
+        ]
+    },
+    "Props" : 
+    {
+		"details" :
+		[
+			{ 
+				"path" : "GabbroShip_Body/Sector_GabbroShip/Geometry_GabbroShip/BatchedGroup", 
+				"position" : {"x": 0, "y": 0,"z": 0},  
+				"rotation" : {"x": 90, "y": 0,"z": 0},
+	                        "scale":1
+			},
+			{ 
+				"path" : "GabbroShip_Body/Sector_GabbroShip/Geometry_GabbroShip/OtherComponentsGroup", 
+				"position" : {"x": 0, "y": 0,"z": 0},  
+				"rotation" : {"x": 90, "y": 0,"z": 0},
+	                        "scale":1
+			},
+			{ 
+				"path" : "GabbroShip_Body/Sector_GabbroShip/SectorTrigger_GabbroShip", 
+				"position" : {"x": 0, "y": 0,"z": 0},  
+				"rotation" : {"x": 90, "y": 0,"z": 0},
+	                        "scale":1
+			},
+                ]
+    }
+}

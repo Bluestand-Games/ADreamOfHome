@@ -1,0 +1,15 @@
+<AstroObjectEntry>
+    <ID>ACCOMMODATION_BEAM</ID>
+
+    <Entry>
+        <ID>Star</ID>
+        <Curiosity>Star</Curiosity>
+        <Name>Star</Name>
+        <IsCuriosity/>
+
+        <ExploreFact>
+            <ID>NewStar</ID> 
+            <Text>Whoa! I was wrong about how far the stars are (Im sorry Porphy), well as if it couldn't be more odd, this star is in great shape! i wonder why tho</Text> 
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>

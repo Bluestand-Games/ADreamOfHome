@@ -1,0 +1,24 @@
+<AstroObjectEntry>
+    <ID>Home</ID>
+
+    <Entry>
+        <ID>HomeMoon</ID>
+        <Name>Home</Name>
+
+        <Curiosity>Star</Curiosity>
+
+        <RumorFact>
+            <ID>Home</ID>
+            <SourceID>Star</SourceID> 
+            <RumorName>Home</RumorName>
+            <Text>Whoa! nice</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>HomeLanding</ID> 
+            <AltPhotoCondition>Home_photo</AltPhotoCondition>
+            <Text>Huh, i thought that all life died out? There <![CDATA[<color=orange>must</color>]]> be a reason why theres still trees.</Text> 
+        </ExploreFact>
+
+    </Entry>
+</AstroObjectEntry>

@@ -1,0 +1,32 @@
+<AstroObjectEntry>
+    <ID>RESIDENCE</ID>
+
+    <Entry>
+        <ID>Cyan</ID>
+        <Name>Residence</Name>
+
+        <Curiosity>Star</Curiosity>
+
+        <RumorFact>
+            <ID>Cyan Rumor</ID> 
+            <SourceID>Star</SourceID> 
+            <RumorName>Blue Planet</RumorName> 
+            <Text>Woah!</Text> 
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>c-far</ID>
+            <Text>A gas planet that seems to be in the habitable zone.</Text>
+        </ExploreFact>
+
+        <ExploreFact>
+            <ID>c-near</ID> 
+            <Text>Is this the planet from the dreamworld?</Text> 
+        </ExploreFact>
+
+        <ExploreFact>
+            <ID>c-found</ID> 
+            <Text>It's full of water! and it has stunning rings!</Text> 
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>

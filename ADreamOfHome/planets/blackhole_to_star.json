@@ -1,0 +1,70 @@
+{
+	"name" : " ",
+	"Base" : 
+	{
+		"surfaceGravity" : 10,
+		"surfaceSize" : 60,
+		"hasMapMarker" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 30000,
+		"primaryBody" : "Sun",
+		"isStatic" : true,
+		"argumentOfPeriapsis" : 10,
+                "isMoon" : true,
+		"showOrbitLine" : false
+	},
+        "Props" :
+        {
+                "details" : 
+                [
+                        {"path" : "TimberHearth_Body/Sector_TH/Volumes_TH/RulesetVolumes_TH", "position" : {"x": 0,"y": 0,"z": 0}, "scale":2.0}
+                ]
+	},
+	"Singularity" :
+	{
+		"Size" : 30,
+		"Type" : "BlackHole",
+		"PairedSingularity" : "Welcome Home"
+	},
+	"Atmosphere" :
+	{
+		"size" : 70,
+		"fogTint":
+		{
+			"r" : 0,
+			"g" : 30,
+			"b" : 20,
+			"a" : 255
+		},
+		"fogSize": 70,
+		"fogDensity":0.3
+	},
+        "Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "???", 
+                          "Name" : "?", 
+                          "audioFilePath" : "planets/Assets/HomeAgain.wav", 
+                          "SourceRadius" : 60, 
+                          "identificationRadius" : 80}
+		]
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/ShipLogs/sprites/B-hole_map.png",
+			"scale": 1,
+			"manualPosition": {
+				"x": 1700,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x": 8,
+				"y": 1
+			}
+		}
+    }
+}
