@@ -3,7 +3,7 @@
   "filename": "ADreamOfHome.dll",
   "author": "Bluestand",
   "name": "A Dream Of Home",
-  "uniqueName": "Bluestand.ADOH",
+  "uniqueName": "Bluestand.ADreamOfHome",
   "version": "0.1.0",
   "owmlVersion": "2.9.8",
   "dependencies": [ "xen.NewHorizons" ]

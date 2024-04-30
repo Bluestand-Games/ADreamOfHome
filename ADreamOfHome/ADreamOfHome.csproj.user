@@ -1,5 +1,5 @@
 ﻿<Project>
   <PropertyGroup>
-    <OutputPath>$(AppData)\OuterWildsModManager\OWML\Mods\Bluestand.ADOH</OutputPath>
+    <OutputPath>$(AppData)\OuterWildsModManager\OWML\Mods\Bluestand.ADreamOfHome</OutputPath>
   </PropertyGroup>
 </Project>
