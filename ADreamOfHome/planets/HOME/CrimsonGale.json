@@ -1,0 +1,313 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Crimson Gale",
+	"starSystem": "Bluestand.ADreamOfHome",
+	"canShowOnTitle": false,
+	"Base": {
+		"surfaceSize": 900,
+		"surfaceGravity": 18,
+		"hasMapMarker": true,
+		"hasReferenceFrame": true,
+		"hasAmbientLight": true
+	},
+	"Water": {
+		"size": 435
+	},
+	"Orbit": {
+		"semiMajorAxis": 9000,
+		"inclination": 0,
+		"primaryBody": "Accommodation Beam",
+		"isMoon": false,
+		"isTidallyLocked": false,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 100,
+		"siderealPeriod": 2,
+		"showOrbitLine": true
+	},
+	"Atmosphere": {
+		"size": 800,
+		"clouds": {
+			"innerCloudRadius": 720,
+			"outerCloudRadius": 800,
+			"cloudsPrefab": "giantsDeep",
+			"texturePath": "planets/assets/ToastyCherry.png",
+			"capPath": "planets/assets/ToastyCherry_cap.png",
+			"rampPath": "planets/assets/ToastyCherry_ramp.png",
+			"fluidType": "cloud",
+			"hasLightning": true,
+			"tint": {
+				"r": 190,
+				"g": 28,
+				"b": 10,
+				"a": 255
+			}
+		},
+		"fogTint": {
+			"r": 106,
+			"g": 61,
+			"b": 11,
+			"a": 255
+		},
+		"fogDensity": 0.4,
+		"fogSize": 250,
+		"useAtmosphereShader": true,
+		"atmosphereTint": {
+			"r": 190,
+			"g": 88,
+			"b": 50,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"heightMap": "planets/Assets/sand-height-TC.png",
+		"textureMap": "planets/Assets/sand-color-TC.png",
+		"minHeight": 90,
+		"maxHeight": 450,
+		"resolution": 408
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Volumes_BH/SubsurfaceAudioVolume_Inner",
+				"scale": 3.0
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Volumes_GDInterior/OceanSurfaceAmbience"
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Volumes_GDInterior/MusicVolume_AquaticExploration"
+			},
+			{
+				"rename": "WaterBarrier",
+				"scale": 2.17
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Volumes_GDInterior/ElectricBarrier",
+				"isRelativeToParent": true,
+				"parentPath": "Sector/WaterBarrier"
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Volumes_GDInterior/ElectricBarrierInterior",
+				"isRelativeToParent": true,
+				"parentPath": "Sector/WaterBarrier"
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Audio_GDInterior/AudioShell_ElectricBarrier",
+				"isRelativeToParent": true,
+				"parentPath": "Sector/WaterBarrier"
+			},
+			{
+				"path": "DarkBramble_Body/Sector_DB/Effects_DB/FogParticles",
+				"scale": 1.5
+			}
+		],
+		"tornados": [
+			{
+				"elevation": 400,
+				"height": 330,
+				"wanderRate": 0.01,
+				"tint": {
+					"r": 190,
+					"g": 28,
+					"b": 15,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 400,
+				"height": 330,
+				"wanderRate": 0.01,
+				"tint": {
+					"r": 190,
+					"g": 28,
+					"b": 15,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 400,
+				"height": 330,
+				"wanderRate": 0.01,
+				"tint": {
+					"r": 190,
+					"g": 28,
+					"b": 15,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 400,
+				"height": 330,
+				"wanderRate": 0.01,
+				"tint": {
+					"r": 190,
+					"g": 28,
+					"b": 15,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 400,
+				"height": 330,
+				"wanderRate": 0.01,
+				"tint": {
+					"r": 190,
+					"g": 28,
+					"b": 15,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 400,
+				"height": 330,
+				"wanderRate": 0.01,
+				"tint": {
+					"r": 190,
+					"g": 28,
+					"b": 15,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 400,
+				"height": 330,
+				"wanderRate": 0.01,
+				"tint": {
+					"r": 190,
+					"g": 28,
+					"b": 15,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 400,
+				"height": 330,
+				"wanderRate": 0.01,
+				"tint": {
+					"r": 190,
+					"g": 28,
+					"b": 15,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 400,
+				"height": 330,
+				"wanderRate": 0.01,
+				"tint": {
+					"r": 190,
+					"g": 28,
+					"b": 15,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 400,
+				"height": 330,
+				"wanderRate": 0.01,
+				"tint": {
+					"r": 190,
+					"g": 28,
+					"b": 15,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 400,
+				"height": 330,
+				"wanderRate": 0.01,
+				"tint": {
+					"r": 190,
+					"g": 28,
+					"b": 15,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 400,
+				"height": 330,
+				"wanderRate": 0.01,
+				"tint": {
+					"r": 190,
+					"g": 28,
+					"b": 15,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 400,
+				"height": 330,
+				"wanderRate": 0.01,
+				"tint": {
+					"r": 190,
+					"g": 28,
+					"b": 15,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 400,
+				"height": 330,
+				"wanderRate": 0.01,
+				"tint": {
+					"r": 190,
+					"g": 28,
+					"b": 15,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 400,
+				"height": 330,
+				"wanderRate": 0.01,
+				"tint": {
+					"r": 190,
+					"g": 28,
+					"b": 15,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 400,
+				"height": 330,
+				"wanderRate": 0.01,
+				"tint": {
+					"r": 190,
+					"g": 28,
+					"b": 15,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 400,
+				"height": 330,
+				"wanderRate": 0.01,
+				"tint": {
+					"r": 190,
+					"g": 28,
+					"b": 15,
+					"a": 255
+				}
+			},
+			{
+				"elevation": 400,
+				"height": 330,
+				"wanderRate": 0.01,
+				"tint": {
+					"r": 190,
+					"g": 28,
+					"b": 15,
+					"a": 255
+				}
+			}
+		]
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"mapMode": {
+			"revealedSprite": "planets/ShipLogs/sprites/TostyCherr.png",
+			"scale": 2
+		}
+	}
+}

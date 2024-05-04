@@ -1,0 +1,51 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Twisting Climate Cold Side",
+	"starSystem": "Bluestand.ADreamOfHome",
+	"canShowOnTitle": false,
+	"Base": {
+		"surfaceSize": 320,
+		"soiOverride": 0.01,
+		"surfaceGravity": 2.5,
+		"hasMapMarker": false
+	},
+	"Orbit": {
+		"semiMajorAxis": 0.01,
+		"siderealPeriod": 0.2,
+		"primaryBody": "Twisting Climate",
+		"isMoon": false,
+		"isTidallyLocked": true,
+		"showOrbitLine": true
+	},
+	"HeightMap": {
+		"heightMap": "planets/Assets/DividedDuneTOP-height.png",
+		"textureMap": "planets/Assets/DividedDuneTOP-color.png",
+		"minHeight": 1,
+		"maxHeight": 290,
+		"resolution": 408
+	},
+	"Props": {
+		"details": [
+			{
+				"rename": "Trees"
+			}
+		],
+		"scatter": [
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Props_DreamZone_1/OtherComponentsGroup/Trees_Z1/DreamHouseIsland/Tree_DW_M_Var",
+				"count": 100,
+				"minHeight": 227,
+				"keepLoaded": true,
+				"parentPath": "Sector/Trees"
+			}
+		]
+	},
+	"ReferenceFrame": {
+		"enabled": false
+	},
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
+	}
+}

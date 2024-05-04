@@ -1,24 +1,24 @@
 <AstroObjectEntry>
-    <ID>Home</ID>
+  <ID>Home</ID>
 
-    <Entry>
-        <ID>HomeMoon</ID>
-        <Name>Home</Name>
+  <Entry>
+	<ID>HomeMoon</ID>
+	<Name>Home</Name>
 
-        <Curiosity>Star</Curiosity>
+	<Curiosity>ADreamOfHome</Curiosity>
 
-        <RumorFact>
-            <ID>Home</ID>
-            <SourceID>Star</SourceID> 
-            <RumorName>Home</RumorName>
-            <Text>Whoa! nice</Text>
-        </RumorFact>
+	<RumorFact>
+	  <ID>Home</ID>
+	  <SourceID>Star</SourceID>
+	  <RumorName>Home</RumorName>
+	  <Text>Whoa! nice</Text>
+	</RumorFact>
 
-        <ExploreFact>
-            <ID>HomeLanding</ID> 
-            <AltPhotoCondition>Home_photo</AltPhotoCondition>
-            <Text>Huh, i thought that all life died out? There <![CDATA[<color=orange>must</color>]]> be a reason why theres still trees.</Text> 
-        </ExploreFact>
+	<ExploreFact>
+	  <ID>HomeLanding</ID>
+	  <AltPhotoCondition>Home_photo</AltPhotoCondition>
+	  <Text>Huh, i thought that all life died out? There <![CDATA[<color=orange>must</color>]]> be a reason why theres still trees.</Text>
+	</ExploreFact>
 
-    </Entry>
+  </Entry>
 </AstroObjectEntry>

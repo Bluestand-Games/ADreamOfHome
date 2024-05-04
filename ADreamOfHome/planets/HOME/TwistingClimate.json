@@ -1,0 +1,60 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Twisting Climate",
+	"starSystem": "Bluestand.ADreamOfHome",
+	"canShowOnTitle": false,
+	"Base": {
+		"surfaceSize": 320,
+		"groundSize": 0.5,
+		"surfaceGravity": 5,
+		"hasMapMarker": true,
+		"hasReferenceFrame": true,
+		"hasAmbientLight": true
+	},
+	"Water": {
+		"size": 227,
+		"tint": {
+			"r": 35,
+			"g": 83,
+			"b": 91,
+			"a": 0
+		}
+	},
+	"Orbit": {
+		"semiMajorAxis": 4000,
+		"siderealPeriod": 3,
+		"inclination": 0,
+		"primaryBody": "Accommodation Beam",
+		"isMoon": false,
+		"isTidallyLocked": true,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 80,
+		"showOrbitLine": true
+	},
+	"Atmosphere": {
+		"size": 320,
+		"fogTint": {
+			"r": 16,
+			"g": 20,
+			"b": 100,
+			"a": 255
+		},
+		"fogDensity": 0.4,
+		"fogSize": 230,
+		"useAtmosphereShader": true,
+		"atmosphereTint": {
+			"r": 14,
+			"g": 20,
+			"b": 100,
+			"a": 255
+		}
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"mapMode": {
+			"revealedSprite": "planets/ShipLogs/sprites/desert.png",
+			"scale": 1
+		}
+	}
+}

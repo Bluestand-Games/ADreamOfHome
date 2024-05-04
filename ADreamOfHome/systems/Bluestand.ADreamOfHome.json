@@ -1,0 +1,25 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+	"respawnHere": true,
+	"startHere": false,
+	"returnToSolarSystemWhenTooFar": true,
+	"canEnterViaWarpDrive": true,
+	"factRequiredForWarp": "WELCOME_HOME",
+	"curiosities": [
+		{
+			"id": "ADreamOfHome",
+			"color": {
+				"r": 255,
+				"g": 255,
+				"b": 0,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 255,
+				"g": 255,
+				"b": 225,
+				"a": 255
+			}
+		}
+	]
+}

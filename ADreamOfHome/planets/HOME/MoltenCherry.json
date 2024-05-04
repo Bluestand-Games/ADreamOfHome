@@ -1,0 +1,77 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Molten Cherry",
+	"starSystem": "Bluestand.ADreamOfHome",
+	"canShowOnTitle": false,
+	"Base": {
+		"surfaceSize": 210,
+		"surfaceGravity": 8,
+		"hasMapMarker": true,
+		"hasReferenceFrame": true,
+		"hasAmbientLight": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 1800,
+		"inclination": 0,
+		"primaryBody": "Crimson Gale",
+		"isMoon": true,
+		"isTidallyLocked": true,
+		"alignmentAxis": {
+			"x": -1,
+			"y": 0,
+			"z": 1
+		},
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 120,
+		"showOrbitLine": true
+	},
+	"HeightMap": {
+		"heightMap": "planets/Assets/SingelCavn'-height.png",
+		"textureMap": "planets/Assets/SingelCavn'-color.png",
+		"minHeight": 160,
+		"maxHeight": 180,
+		"resolution": 408
+	},
+	"Lava": {
+		"size": 165
+	},
+	"Props": {
+		"volcanoes": [
+			{
+				"position": { "x": -100 },
+				"rotation": { "z": 90 },
+				"isRelativeToParent": true,
+				"maxInterval": 0.2,
+				"minInterval": 0.1
+			}
+		],
+		"details": [
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Props_RadioTower/OtherComponentsGroup/PlankPath/Prefab_HEA_VillagePlank (105)"
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Props_RadioTower/OtherComponentsGroup/PlankPath/Prefab_HEA_VillagePlank (105)"
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Props_RadioTower/OtherComponentsGroup/PlankPath/Prefab_HEA_VillagePlank (105)"
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Props_RadioTower/OtherComponentsGroup/PlankPath/Prefab_HEA_VillagePlank (105)"
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Props_RadioTower/OtherComponentsGroup/PlankPath/Prefab_HEA_VillagePlank (105)"
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Props_RadioTower/OtherComponentsGroup/PlankPath/Prefab_HEA_VillagePlank (105)"
+			}
+		]
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"mapMode": {
+			"revealedSprite": "planets/ShipLogs/sprites/TostyCherr_moon.png",
+			"scale": 1
+		}
+	}
+}
