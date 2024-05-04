@@ -56,6 +56,22 @@ public class ADreamOfHome : ModBehaviour
 
     private void OnTwistedClimateSideLoaded(GameObject body, bool hot)
     {
+        /*
+        var sidereal = 2f * Mathf.PI / ((hot ? 1 : 0.2f) * 60f);
+        var rotaxis = hot ? Vector3.forward : Vector3.back;
+        GameObject.DestroyImmediate(body.GetComponent<AlignWithTargetBody>());
+        var alignmentAxis = new Vector3(0, -1, 0);
+        var alignment = body.AddComponent<AlignAndAllowRotate>();
+        alignment.SetTargetBody(newHorizons.GetPlanet("Accommodation Beam").GetComponent<OWRigidbody>());
+        alignment._localAlignmentAxis = alignmentAxis;
+        alignment._owRigidbody = body.GetComponent<OWRigidbody>();
+        var currentDirection = alignment.transform.TransformDirection(alignment._localAlignmentAxis);
+        var targetDirection = alignment.GetAlignmentDirection();
+        alignment.transform.rotation = Quaternion.FromToRotation(currentDirection, targetDirection) * alignment.transform.rotation;
+        alignment._owRigidbody.SetAngularVelocity(Vector3.zero);
+        alignment._usePhysicsToRotate = true;
+        alignment.sidereal = hot ? sidereal : -sidereal;
+        */
         body.GetComponentInChildren<GravityVolume>().GetComponent<SphereCollider>().radius = 1280;
         body.GetComponentInChildren<GravityVolume>()._lowerSurfaceRadius = 0;
         body.GetComponentInChildren<GravityVolume>()._upperSurfaceRadius = 320;
