@@ -1,0 +1,73 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Leith's Satellite",
+	"starSystem": "Bluestand.ADreamOfHome",
+	"canShowOnTitle": false,
+	"Base": {
+		"surfaceSize": 1,
+		"soiOverride": 15,
+		"hasMapMarker": false,
+		"isSatellite": true,
+		"pushable": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 1500,
+		"inclination": 30,
+		"primaryBody": "Shrouded Tempest",
+		"siderealPeriod": 0.9,
+		"isMoon": true,
+		"trueAnomaly": 100,
+		"dottedOrbitLine": true,
+		"showOrbitLine": true
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/Assets/leith",
+				"path": "Assets/ADreamOfHome/LeithsSatellite.prefab",
+				"rename": "LeithsSatellite",
+				"keepLoaded": true
+			}
+		],
+		"dialogue": [
+			{
+				"pathToExistingDialogue": "Sector/LeithsSatellite/BarrelCenter/Paper/Note",
+				"xmlFile": "planets/Dialogue/PAPER-SATELLITE.xml"
+			}
+		],
+		"signals": [
+			{
+				"frequency": "Radio",
+				"name": "Leith's Satellite",
+				"audio": "planets/Assets/Satellite.wav",
+				"sourceRadius": 0.25,
+				"identificationRadius": 3,
+				"detectionRadius": 50,
+				"rename": "SatelliteSignal",
+				"isRelativeToParent": true,
+				"parentPath": "Sector/LeithsSatellite/BarrelCenter/SatelliteDish/SignalSource"
+			}
+		]
+	},
+	"ReferenceFrame": {
+		"maxTargetDistance": 30000,
+		"targetColliderRadius": 2000,
+		"bracketRadius": 4,
+		"targetWhenClose": true
+	},
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
+	},
+	"Spawn": {
+		"playerSpawn": {
+			"position": {
+				"x": 0,
+				"y": 10,
+				"z": 0
+			},
+			"rename": "LeithsSatelliteSpawn"
+		}
+	}
+}

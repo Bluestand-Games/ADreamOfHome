@@ -1,19 +1,16 @@
 <DialogueTree>
-	<NameField>  </NameField>
+	<NameField>SIGN</NameField>
 
 	<DialogueNode>
-		<Name></Name>
+		<Name>PAPER_TH</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
 			<Page>Missing:</Page>
 			<Page>Feldspar</Page>
 			<Page>Eske- oh wait, they are on the Attlerock, okay- uh sorry.</Page>
-			<Page>Feldspar and Opal</Page>
+			<Page>Opal, Jade, and Floe</Page>
 			<Page>If you find them or see objects from them like:</Page>
-			<Page>Marsmellow Cans</Page>
-			<Page>A Space Helmet</Page>
-			<Page>Notes from them</Page>
-			<Page>Or Music,</Page>
+			<Page>Marshmallow cans, space helmets, notes from them, or music</Page>
 			<Page>Report back to Hornfels</Page>
 		</Dialogue>
 	</DialogueNode>

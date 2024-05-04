@@ -1,0 +1,136 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Shrouded Tempest",
+	"starSystem": "Bluestand.ADreamOfHome",
+	"Base": {
+		"surfaceSize": 800,
+		"surfaceGravity": 30,
+		"hasMapMarker": true,
+		"hasReferenceFrame": true,
+		"hasAmbientLight": true
+	},
+	"Water": {
+		"size": 335
+	},
+	"Orbit": {
+		"semiMajorAxis": 16000,
+		"inclination": 0,
+		"primaryBody": "Accommodation Beam",
+		"isMoon": false,
+		"alignmentAxis": {
+			"x": 0,
+			"y": -0.2,
+			"z": 1
+		},
+		"isTidallyLocked": true,
+		"longitudeOfAscendingNode": 0,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 100,
+		"showOrbitLine": true
+	},
+	"Atmosphere": {
+		"size": 500,
+		"clouds": {
+			"innerCloudRadius": 450,
+			"outerCloudRadius": 500,
+			"cloudsPrefab": "giantsDeep",
+			"texturePath": "planets/assets/residence.png",
+			"capPath": "planets/assets/residence_cap.png",
+			"rampPath": "planets/assets/residence_ramp.png",
+			"fluidType": "cloud",
+			"hasLightning": true,
+			"tint": {
+				"r": 151,
+				"g": 151,
+				"b": 151,
+				"a": 255
+			}
+		},
+		"fogTint": {
+			"r": 10,
+			"g": 151,
+			"b": 201,
+			"a": 255
+		},
+		"fogDensity": 0.4,
+		"fogSize": 250,
+		"useAtmosphereShader": true,
+		"atmosphereTint": {
+			"r": 10,
+			"g": 151,
+			"b": 200,
+			"a": 255
+		}
+	},
+	"HeightMap": {
+		"heightMap": "planets/Assets/sand-height.png",
+		"textureMap": "planets/Assets/sand-color.png",
+		"minHeight": 90,
+		"maxHeight": 330
+	},
+	"Rings": [
+		{
+			"innerRadius": 0,
+			"outerRadius": 1400,
+			"inclination": 0,
+			"texture": "planets/Assets/rings-home.png",
+			"fluidType": "water",
+			"rotationSpeed": 0,
+			"unlit": true
+		}
+	],
+	"Props": {
+		"details": [
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Volumes_GD/Ocean_Fluid_Audio_Rain",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"rotation": {
+					"x": 90,
+					"y": 0,
+					"z": 0
+				},
+				"scale": 0.6
+			}
+		]
+	},
+	"ShipLog": {
+		"xmlFile": "planets/ShipLogs/Residence.xml",
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"mapMode": {
+			"revealedSprite": "planets/ShipLogs/sprites/cyan_map.png",
+			"scale": 2
+		},
+		"entryPositions": [
+			{
+				"id": "Cyan",
+				"position": {
+					"x": 200,
+					"y": 500
+				}
+			}
+		]
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"radius": 30000,
+				"reveals": [ "c-far" ],
+				"revealOn": "enter"
+			},
+			{
+				"radius": 500,
+				"reveals": [ "c-found" ],
+				"revealOn": "enter"
+			},
+			{
+				"radius": 8000,
+				"reveals": [ "c-near" ],
+				"revealOn": "enter"
+			}
+		]
+	}
+}

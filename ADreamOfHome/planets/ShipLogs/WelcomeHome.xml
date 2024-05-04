@@ -1,0 +1,15 @@
+<AstroObjectEntry>
+  <ID>WELCOME_HOME</ID>
+
+  <Entry>
+	<ID>WELCOME_HOME</ID>
+	<Name>Welcome Home</Name>
+	
+	<Curiosity>ADreamOfHome</Curiosity>
+
+	<ExploreFact>
+	  <ID>WELCOME_HOME</ID>
+	  <Text>I went through a black hole and got transported to a nearby star.</Text>
+	</ExploreFact>
+  </Entry>
+</AstroObjectEntry>

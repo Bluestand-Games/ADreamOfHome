@@ -1,26 +1,41 @@
 {
-    "name" : "Timber Hearth",
-    "Props" : 
-    {
-		"details" :
-		[
-			{ 
-				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Lighting_Observatory/Exhibits/PointLight_HEA_QuantumExhibit (2)", 
-				"position": {"x": -1.9485, "y": -0.0287, "z": 189.3553},
-	                        "scale":1
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Timber Hearth",
+	"Props": {
+		"details": [
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Lighting_Observatory/Exhibits/PointLight_HEA_QuantumExhibit (2)",
+				"position": {
+					"x": -1.9485,
+					"y": -0.0287,
+					"z": 189.3553
+				},
+				"scale": 1
 			},
-			{ 
-				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/Props_HEA_SignPost (1)/GossanNote/plaque_paper_1 (1)", 
-				"position": {"x": -2.5175, "y": -0.0287, "z": 189.3553},
-				"rotation" : {"x": 355.744, "y": 136.2667,"z": 101.5186},
-	                        "scale":1
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/Props_HEA_SignPost (1)/GossanNote/plaque_paper_1 (1)",
+				"position": {
+					"x": -2.5175,
+					"y": -0.0287,
+					"z": 189.3553
+				},
+				"rotation": {
+					"x": 355.744,
+					"y": 136.2667,
+					"z": 101.5186
+				},
+				"scale": 1
 			}
-                ],
-                "dialogue" : [
-	                {
-			"position": {"x": -2.5175, "y": -0.0287, "z": 189.3553},
-	                "xmlFile" : "planets/Dialogue/PAPER-TH.xml"
-	                }
-                ]
-    }
+		],
+		"dialogue": [
+			{
+				"position": {
+					"x": -2.5175,
+					"y": -0.0287,
+					"z": 189.3553
+				},
+				"xmlFile": "planets/Dialogue/PAPER-TH.xml"
+			}
+		]
+	}
 }

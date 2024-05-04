@@ -1,0 +1,65 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Leith's Ship",
+	"starSystem": "Bluestand.ADreamOfHome",
+	"canShowOnTitle": false,
+	"Base": {
+		"surfaceSize": 15,
+		"soiOverride": 100,
+		"hasMapMarker": false,
+		"isSatellite": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 300,
+		"inclination": 30,
+		"primaryBody": "Strange Home",
+		"isTidallyLocked": false,
+		"siderealPeriod": 0.2,
+		"eccentricity": 0,
+		"trueAnomaly": 10,
+		"trackingOrbitLine": true,
+		"dottedOrbitLine": true,
+		"showOrbitLine": true
+	},
+	"Props": {
+		"signals": [
+			{
+				"frequency": "Traveler",
+				"name": "Leith's Ship",
+				"audio": "planets/Assets/Wind.wav",
+				"sourceRadius": 1,
+				"identificationRadius": 20,
+				"detectionRadius": 50
+			}
+		],
+		"details": [
+			{
+				"assetBundle": "planets/Assets/leith",
+				"path": "Assets/ADreamOfHome/LeithsShip.prefab",
+				"rename": "LeithsShip",
+				"keepLoaded": true
+			}
+		]
+	},
+	"ReferenceFrame": {
+		"maxTargetDistance": 30000,
+		"targetColliderRadius": 2000,
+		"bracketRadius": 4,
+		"targetWhenClose": true
+	},
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
+	},
+	"Spawn": {
+		"playerSpawn": {
+			"position": {
+				"x": 0,
+				"y": 10,
+				"z": 0
+			},
+			"rename": "LeithsShipSpawn"
+		}
+	}
+}

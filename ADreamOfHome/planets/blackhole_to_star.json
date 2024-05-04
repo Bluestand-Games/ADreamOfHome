@@ -1,64 +1,58 @@
 {
-	"name" : " ",
-	"Base" : 
-	{
-		"surfaceGravity" : 10,
-		"surfaceSize" : 60,
-		"hasMapMarker" : true
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Goodbye Hearth",
+	"Base": {
+		"surfaceGravity": 10,
+		"surfaceSize": 60,
+		"hasMapMarker": false
 	},
-	"Orbit" :
-	{
-		"semiMajorAxis" : 30000,
-		"primaryBody" : "Sun",
-		"isStatic" : true,
-		"argumentOfPeriapsis" : 10,
-                "isMoon" : true,
-		"showOrbitLine" : false
+	"Orbit": {
+		"semiMajorAxis": 30000,
+		"primaryBody": "Sun",
+		"isStatic": true,
+		"argumentOfPeriapsis": 10,
+		"isMoon": true,
+		"showOrbitLine": false
 	},
-        "Props" :
-        {
-                "details" : 
-                [
-                        {"path" : "TimberHearth_Body/Sector_TH/Volumes_TH/RulesetVolumes_TH", "position" : {"x": 0,"y": 0,"z": 0}, "scale":2.0}
-                ]
-	},
-	"Singularity" :
-	{
-		"Size" : 30,
-		"Type" : "BlackHole",
-		"PairedSingularity" : "Welcome Home"
-	},
-	"Atmosphere" :
-	{
-		"size" : 70,
-		"fogTint":
-		{
-			"r" : 0,
-			"g" : 30,
-			"b" : 20,
-			"a" : 255
+	"Atmosphere": {
+		"size": 70,
+		"fogTint": {
+			"r": 0,
+			"g": 30,
+			"b": 20,
+			"a": 255
 		},
 		"fogSize": 70,
-		"fogDensity":0.3
+		"fogDensity": 0.3
 	},
-        "Signal" : 
-	{
-		"Signals" : 
-		[
-			{ "Frequency" : "???", 
-                          "Name" : "?", 
-                          "audioFilePath" : "planets/Assets/HomeAgain.wav", 
-                          "SourceRadius" : 60, 
-                          "identificationRadius" : 80}
+	"Props": {
+		"singularities": [
+			{
+				"size": 30,
+				"type": "blackHole",
+				"targetStarSystem": "Bluestand.ADreamOfHome"
+			}
+		],
+		"signals": [
+			{
+				"frequency": "A Dream of Home",
+				"name": "G o o d b y e   H e a r t h",
+				"audioFilePath": "planets/Assets/HomeAgain.wav",
+				"sourceRadius": 60,
+				"identificationRadius": 120,
+				"detectionRadius": 1200,
+				"onlyAudibleToScope": false,
+				"rename": "HomeAgainSignal"
+			}
 		]
 	},
-	"ShipLog" : {
+	"ShipLog": {
 		"spriteFolder": "planets/ShipLogs/sprites",
-		"mapMode" : {
+		"mapMode": {
 			"revealedSprite": "planets/ShipLogs/sprites/B-hole_map.png",
 			"scale": 1,
 			"manualPosition": {
-				"x": 1700,
+				"x": 30000,
 				"y": 0
 			},
 			"manualNavigationPosition": {
@@ -66,5 +60,5 @@
 				"y": 1
 			}
 		}
-    }
+	}
 }
