@@ -61,6 +61,7 @@ public class ADreamOfHome : ModBehaviour
         body.GetComponentInChildren<GravityVolume>().GetComponent<SphereCollider>().radius = 1280;
         body.GetComponentInChildren<GravityVolume>()._lowerSurfaceRadius = 0;
         body.GetComponentInChildren<GravityVolume>()._upperSurfaceRadius = 320;
+        body.GetComponentInChildren<AlignWithTargetBody>().SetTargetBody(newHorizons.GetPlanet("Accommodation Beam").GetAttachedOWRigidbody());
         var originalSector = newHorizons.GetPlanet("Twisting Climate").transform.Find("Sector");
         var sector = body.transform.Find("Sector");
         sector.GetComponent<SphereShape>().radius = 1290;
