@@ -42,7 +42,7 @@ public class ADreamOfHome : ModBehaviour
     {
         if (name == "Twisting Climate Hot Side" || name == "Twisting Climate Cold Side")
         {
-            OnTwistedClimateSideLoaded(body, name.Contains("Hot"));
+            OnTwistingClimateSideLoaded(body, name.Contains("Hot"));
         }
         if (name == "Shrouded Tempest")
         {
@@ -54,12 +54,12 @@ public class ADreamOfHome : ModBehaviour
         }
     }
 
-    private void OnTwistedClimateSideLoaded(GameObject body, bool hot)
+    private void OnTwistingClimateSideLoaded(GameObject body, bool hot)
     {
         body.GetComponentInChildren<GravityVolume>().GetComponent<SphereCollider>().radius = 1280;
         body.GetComponentInChildren<GravityVolume>()._lowerSurfaceRadius = 0;
         body.GetComponentInChildren<GravityVolume>()._upperSurfaceRadius = 320;
-        var originalSector = newHorizons.GetPlanet("Twisted Climate").transform.Find("Sector");
+        var originalSector = newHorizons.GetPlanet("Twisting Climate").transform.Find("Sector");
         var sector = body.transform.Find("Sector");
         sector.GetComponent<SphereShape>().radius = 1290;
         sector.GetComponent<Sector>().SetParentSector(originalSector.GetComponent<Sector>());
