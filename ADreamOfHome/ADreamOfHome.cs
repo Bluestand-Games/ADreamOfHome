@@ -1,6 +1,8 @@
 ﻿using Epic.OnlineServices;
 using Epic.OnlineServices.Presence;
+using HarmonyLib;
 using OWML.Common;
+using OWML.Logging;
 using OWML.ModHelper;
 using System;
 using System.Collections.Generic;
@@ -10,18 +12,18 @@ namespace ADreamOfHome;
 
 public class ADreamOfHome : ModBehaviour
 {
-    private static INewHorizons newHorizons;
+	public static IModConsole ModConsole;
+	private static INewHorizons newHorizons;
 
 
-    private void Awake()
+	private void Awake()
 	{
-		// You won't be able to access OWML's mod helper in Awake.
-		// So you probably don't want to do anything here.
-		// Use Start() instead.
+        new Harmony("Bluestand.ADreamOfHome").PatchAll();
 	}
 
 	private void Start()
 	{
+		ModConsole = ModHelper.Console;
 		// Starting here, you'll have access to OWML's mod helper.
 		ModHelper.Console.WriteLine($"My mod {nameof(ADreamOfHome)} is loaded!", MessageType.Success);
 
@@ -93,3 +95,13 @@ public class ADreamOfHome : ModBehaviour
     }
 }
 
+[HarmonyPatch(typeof(TornadoController))]
+public static class TornadoPatch
+{
+	[HarmonyPrefix]
+    [HarmonyPatch(nameof(TornadoController.AttemptAudioFadeIn))]
+    public static void TornadoController_AttemptAudioFadeIn_Prefix(TornadoController __instance, float duration)
+	{
+		__instance._audioSource.Awake();
+	}
+}
