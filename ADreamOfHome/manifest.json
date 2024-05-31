@@ -6,5 +6,6 @@
   "uniqueName": "Bluestand.ADreamOfHome",
   "version": "0.1.0",
   "owmlVersion": "2.9.8",
-  "dependencies": [ "xen.NewHorizons" ]
+  "dependencies": [ "xen.NewHorizons" ],
+  "conflicts": [ "Vesper.AutoResume" ]
 }
