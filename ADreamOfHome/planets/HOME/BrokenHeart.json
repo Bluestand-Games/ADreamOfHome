@@ -44,16 +44,18 @@
         "slideShows": [
             {
                 "position": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+                    "x": -104.0357,
+                    "y": 54.38034,
+                    "z": 224.3856
                 },
                 "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+                    "x": 310.338,
+                    "y": 257.0879,
+                    "z": 265.2056
                 },
                 "type": "slideReel",
+                "reelModel": "whole",
+                "reelCondition": "pristine",
                 "slides": [
                     { "imagePath": "planets/assets/sr/1a.png" },
                     { "imagePath": "planets/assets/sr/2a.png" },
