@@ -5,6 +5,25 @@
 	"returnToSolarSystemWhenTooFar": true,
 	"canEnterViaWarpDrive": true,
 	"factRequiredForWarp": "WELCOME_HOME",
+	"Vessel": {
+		"vesselSpawn": {
+			"position": {
+				"x": 0,
+				"y": 0,
+				"z": 30000
+			},
+			"rotation": {
+				"x": 0,
+				"y": 180,
+				"z": 0
+			}
+		},
+		"coords": {
+			"x": [ 4, 0, 1, 2, 3 ],
+			"y": [ 4, 0, 1, 2, 5, 3 ],
+			"z": [ 3, 4, 0, 1, 2, 5 ]
+		}
+	},
 	"curiosities": [
 		{
 			"id": "ADreamOfHome",
