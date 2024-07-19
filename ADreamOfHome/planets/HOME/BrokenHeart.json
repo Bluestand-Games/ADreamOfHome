@@ -41,6 +41,36 @@
         "resolution": 408
     },
     "Props": {
+        "details": [
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_ProjectionHouse_Zone1/Interactables_ProjectionHouse_Zone1/TheatreRoom_ProjectionHouse_Zone1/Prefab_IP_SlideProjector_Ring",
+                "position": {
+                    "x": -107.3314,
+                    "y": 60.076,
+                    "z": 224.7631
+                },
+                "rotation": {
+                    "x": 70,
+                    "y": 313.7606,
+                    "z": 338.9486
+                },
+                "keepLoaded": true
+            },
+            {
+                "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_DreamFireHouse_Zone3/Interactables_DreamFireHouse_Zone3/Lanterns_DFH_Zone3/Prefab_IP_SimpleLanternItem_Zone3DFH_5",
+                "position": {
+                    "x": -104.0426,
+                    "y": 53.70543,
+                    "z": 224.4047
+                },
+                "rotation": {
+                    "x": 286.4678,
+                    "y": 240.0096,
+                    "z": 283.9027
+                },
+                "keepLoaded": true
+            }
+        ],
         "slideShows": [
             {
                 "position": {
@@ -69,6 +99,227 @@
                     { "imagePath": "planets/assets/SR/10a.png" },
                     { "imagePath": "planets/assets/SR/11a.png" },
                     { "imagePath": "planets/assets/SR/12a.png" }
+                ]
+            },
+            {
+                "position": {
+                    "x": -104.0414,
+                    "y": 59.54476,
+                    "z": 223.7956
+                },
+                "rotation": {
+                    "x": 53.22823,
+                    "y": 268.7967,
+                    "z": 279.9789
+                },
+                "type": "slideReel",
+                "reelModel": "eightSlides",
+                "reelCondition": "antique",
+                "slides": [
+                    { "imagePath": "planets/assets/r/1.png" },
+                    { "imagePath": "planets/assets/r/2.png" },
+                    { "imagePath": "planets/assets/r/3.png" },
+                    { "imagePath": "planets/assets/r/4.png" },
+                    { "imagePath": "planets/assets/r/5.png" },
+                    { "imagePath": "planets/assets/r/6.png" },
+                    { "imagePath": "planets/assets/r/7.png" },
+                    { "imagePath": "planets/assets/r/8.png" },
+                    { "imagePath": "planets/assets/r/9.png" },
+                    { "imagePath": "planets/assets/r/10.png" },
+                    { "imagePath": "planets/assets/r/11.png" },
+                    { "imagePath": "planets/assets/r/12.png" },
+                    { "imagePath": "planets/assets/r/13.png" },
+                    { "imagePath": "planets/assets/r/14.png" },
+                    { "imagePath": "planets/assets/r/15.png" },
+                    { "imagePath": "planets/assets/r/16.png" }
+                ]
+            },
+            {
+                "position": {
+                    "x": -110.3365,
+                    "y": 54.1741,
+                    "z": 221.7838
+                },
+                "rotation": {
+                    "x": 275.1084,
+                    "y": 137.4557,
+                    "z": 23.98575
+                },
+                "type": "slideReel",
+                "reelModel": "sevenSlides",
+                "reelCondition": "pristine",
+                "slides": [
+                    { "imagePath": "planets/assets/r/1.png" },
+                    { "imagePath": "planets/assets/r/2.png" },
+                    { "imagePath": "planets/assets/r/3.png" },
+                    { "imagePath": "planets/assets/r/4.png" },
+                    { "imagePath": "planets/assets/r/5.png" },
+                    { "imagePath": "planets/assets/r/6.png" },
+                    { "imagePath": "planets/assets/r/7.png" },
+                    { "imagePath": "planets/assets/r/8.png" },
+                    { "imagePath": "planets/assets/r/9.png" },
+                    { "imagePath": "planets/assets/r/10.png" },
+                    { "imagePath": "planets/assets/r/11.png" },
+                    { "imagePath": "planets/assets/r/12.png" },
+                    { "imagePath": "planets/assets/r/13.png" },
+                    { "imagePath": "planets/assets/r/14.png" },
+                    { "imagePath": "planets/assets/r/15.png" },
+                    { "imagePath": "planets/assets/r/16.png" }
+                ]
+            },
+            {
+                "position": {
+                    "x": -112.0062,
+                    "y": 55.29796,
+                    "z": 221.1303
+                },
+                "rotation": {
+                    "x": 316.2745,
+                    "y": 76.0037,
+                    "z": 83.60249
+                },
+                "type": "slideReel",
+                "reelModel": "sixSlides",
+                "reelCondition": "pristine",
+                "slides": [
+                    { "imagePath": "planets/assets/r/1.png" },
+                    { "imagePath": "planets/assets/r/2.png" },
+                    { "imagePath": "planets/assets/r/3.png" },
+                    { "imagePath": "planets/assets/r/4.png" },
+                    { "imagePath": "planets/assets/r/5.png" },
+                    { "imagePath": "planets/assets/r/6.png" },
+                    { "imagePath": "planets/assets/r/7.png" },
+                    { "imagePath": "planets/assets/r/8.png" },
+                    { "imagePath": "planets/assets/r/9.png" },
+                    { "imagePath": "planets/assets/r/10.png" },
+                    { "imagePath": "planets/assets/r/11.png" },
+                    { "imagePath": "planets/assets/r/12.png" },
+                    { "imagePath": "planets/assets/r/13.png" },
+                    { "imagePath": "planets/assets/r/14.png" },
+                    { "imagePath": "planets/assets/r/15.png" },
+                    { "imagePath": "planets/assets/r/16.png" }
+                ]
+            },
+            {
+                "position": {
+                    "x": -112.182,
+                    "y": 57.57865,
+                    "z": 220.8776
+                },
+                "rotation": {
+                    "x": 12.08861,
+                    "y": 70.58072,
+                    "z": 85.27641
+                },
+                "type": "slideReel",
+                "reelModel": "whole",
+                "reelCondition": "antique",
+                "slides": [
+                    { "imagePath": "planets/assets/r/1.png" },
+                    { "imagePath": "planets/assets/r/2.png" },
+                    { "imagePath": "planets/assets/r/3.png" },
+                    { "imagePath": "planets/assets/r/4.png" },
+                    { "imagePath": "planets/assets/r/5.png" },
+                    { "imagePath": "planets/assets/r/6.png" },
+                    { "imagePath": "planets/assets/r/7.png" },
+                    { "imagePath": "planets/assets/r/8.png" },
+                    { "imagePath": "planets/assets/r/9.png" },
+                    { "imagePath": "planets/assets/r/10.png" },
+                    { "imagePath": "planets/assets/r/11.png" },
+                    { "imagePath": "planets/assets/r/12.png" },
+                    { "imagePath": "planets/assets/r/13.png" },
+                    { "imagePath": "planets/assets/r/14.png" },
+                    { "imagePath": "planets/assets/r/15.png" },
+                    { "imagePath": "planets/assets/r/16.png" }
+                ]
+            },
+            {
+                "position": {
+                    "x": -103.0076,
+                    "y": 54.96404,
+                    "z": 224.7245
+                },
+                "rotation": {
+                    "x": 338.3521,
+                    "y": 254.662,
+                    "z": 266.6631
+                },
+                "type": "slideReel",
+                "reelModel": "sevenSlides",
+                "reelCondition": "rusted",
+                "slides": [
+                    { "imagePath": "planets/assets/s/1s.png" },
+                    { "imagePath": "planets/assets/s/2s.png" },
+                    { "imagePath": "planets/assets/s/3s.png" },
+                    { "imagePath": "planets/assets/s/4s.png" },
+                    { "imagePath": "planets/assets/s/5s.png" },
+                    { "imagePath": "planets/assets/s/6s.png" },
+                    { "imagePath": "planets/assets/s/7s.png" },
+                    { "imagePath": "planets/assets/s/8s.png" },
+                    { "imagePath": "planets/assets/s/9s.png" },
+                    { "imagePath": "planets/assets/s/10s.png" },
+                    { "imagePath": "planets/assets/s/11s.png" },
+                    { "imagePath": "planets/assets/s/12s.png" },
+                    { "imagePath": "planets/assets/s/13s.png" },
+                    { "imagePath": "planets/assets/s/14s.png" },
+                    { "imagePath": "planets/assets/s/15s.png" }
+                ]
+            },
+            {
+                "position": {
+                    "x": -102.306,
+                    "y": 56.24227,
+                    "z": 225.0056
+                },
+                "rotation": {
+                    "x": 6.314389,
+                    "y": 253.0863,
+                    "z": 266.8798
+                },
+                "type": "slideReel",
+                "reelModel": "sixSlides",
+                "reelCondition": "antique",
+                "slides": [
+                    { "imagePath": "planets/assets/s/16s.png" },
+                    { "imagePath": "planets/assets/s/17s.png" },
+                    { "imagePath": "planets/assets/s/18s.png" },
+                    { "imagePath": "planets/assets/s/19s.png" },
+                    { "imagePath": "planets/assets/s/20s.png" },
+                    { "imagePath": "planets/assets/s/21s.png" },
+                    { "imagePath": "planets/assets/s/22s.png" },
+                    { "imagePath": "planets/assets/s/23s.png" },
+                    { "imagePath": "planets/assets/s/24s.png" },
+                    { "imagePath": "planets/assets/s/25s.png" },
+                    { "imagePath": "planets/assets/s/26s.png" },
+                    { "imagePath": "planets/assets/s/27s.png" },
+                    { "imagePath": "planets/assets/s/28s.png" },
+                    { "imagePath": "planets/assets/s/29s.png" },
+                    { "imagePath": "planets/assets/s/30s.png" }
+                ]
+            },
+            {
+                "position": {
+                    "x": -102.2659,
+                    "y": 57.69646,
+                    "z": 224.9429
+                },
+                "rotation": {
+                    "x": 35.08979,
+                    "y": 248.946,
+                    "z": 275.4329
+                },
+                "type": "slideReel",
+                "reelModel": "eightSlides",
+                "reelCondition": "rusted",
+                "slides": [
+                    { "imagePath": "planets/assets/h/1h.png" },
+                    { "imagePath": "planets/assets/h/2h.png" },
+                    { "imagePath": "planets/assets/h/3h.png" },
+                    { "imagePath": "planets/assets/h/4h.png" },
+                    { "imagePath": "planets/assets/h/5h.png" },
+                    { "imagePath": "planets/assets/h/6h.png" },
+                    { "imagePath": "planets/assets/h/7h.png" },
+                    { "imagePath": "planets/assets/h/8h.png" }
                 ]
             }
         ]

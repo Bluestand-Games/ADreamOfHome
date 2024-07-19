@@ -1281,6 +1281,22 @@
 				"isRelativeToParent": true,
 				"parentPath": "Sector/Main",
 				"scale": 1.0
+			},
+			{
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_ProjectionHouse_Zone1/Interactables_ProjectionHouse_Zone1/TheatreRoom_ProjectionHouse_Zone1/Prefab_IP_SlideProjector_Ring",
+				"position": {
+					"x": 32.7131,
+					"y": -79.224,
+					"z": 116.6734
+				},
+				"rotation": {
+					"x": 353.4807,
+					"y": 290.2621,
+					"z": 237.9675
+				},
+				"isRelativeToParent": true,
+				"parentPath": "Sector/Main",
+				"scale": 1.0
 			}
 		],
 		"slideShows": [
