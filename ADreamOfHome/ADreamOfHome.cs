@@ -50,9 +50,9 @@ public class ADreamOfHome : ModBehaviour
         {
             OnShroudedTempestLoaded(body);
         }
-        if (name == "Molten Cherry")
+        if (name == "Sizzling Stone")
         {
-            OnMoltenCherryLoaded(body);
+            OnSizzlingStoneLoaded(body);
         }
     }
 
@@ -74,7 +74,7 @@ public class ADreamOfHome : ModBehaviour
         body.transform.Find("Sector/Ring").GetComponent<MeshRenderer>().sharedMaterial.renderQueue = 4001;
     }
 
-	private void OnMoltenCherryLoaded(GameObject body)
+	private void OnSizzlingStoneLoaded(GameObject body)
 	{
         var meteorLauncher = body.GetComponentInChildren<MeteorLauncher>();
         meteorLauncher.gameObject.SetActive(false);
